@@ -40,7 +40,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright © In The Hand Ltd 2003-2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: Guid("f8b087d0-bc47-48ca-958c-8fc6a41c1b65")]
+[assembly: Guid("bdfcb667-1231-4014-82e9-Bf008ee5c687")]
 
 //
 // Version information for an assembly consists of the following four values:
@@ -66,7 +66,7 @@ using System.Runtime.InteropServices;
 #if !DEBUG && !CODE_ANALYSIS && !NO_SIGNING
 [assembly: AssemblyDelaySign(false)]
 #pragma warning disable 1699
-[assembly: AssemblyKeyFile(@"..\..\..\InTheHand.Net.Personal\InTheHand.snk")]
+[assembly: AssemblyKeyFile(@"..\..\..\InTheHand.Net.Personal\d-m-wilson.ITH.snk")]
 #pragma warning restore 1699
 [assembly: AssemblyKeyName("")]
 #endif
@@ -74,7 +74,7 @@ using System.Runtime.InteropServices;
 #if DEBUG // for unit-tests
 #if ! V1
 [assembly: InternalsVisibleTo("ITH.Net.Personal.FX2.Tests"
-    //+ ", PublicKey=" + "00240000048000009400000006020000002400005253413100040000010001005f213ee92d70ac14e1b91c0903122b4717e49db9adbac893810e364e6a919d3a2d3bb178359c3c3913f31848d2587aa77bdaae8088d4a49f0913cf67b9ad4be815bae8fe8d0911e96fb85d8e376d57cccf931bf73dc648e42d9f1f50f713c637fd4b1c6d0731e1d4831b00f9168073c0c6749c78a1ef7afd2869227ecf4c43a4"
+    //+ ", PublicKey=" + "002400000480000094000000060200000024000052534131000400000100010057ba3491d0a5f7335b762468963a1e2dc49a9d23eade3bbe9fd4637dde5c9b632eddbae9ea0dbcf260c0f573b8cea5a0b842f7421db0a2e3c9c175151eb422a573bc0dc5c379c032b9462624813f50988fb6a48b39da8a3c2eb6153c77899506ca2f8fe541c88cca1cdb5b38226f442494c1bf85a015e3c96ce39b5f77dbebc0"
     )]
 [assembly: InternalsVisibleTo("ITH.Net.Personal.FX4.Tests")]
 [assembly: InternalsVisibleTo("ITH.Net.CE2.Tests")]

@@ -353,13 +353,13 @@
     <None Include="app.config">
     </None>
     <None Include="BluetoothStacks.cd" />
+    <None Include="d-m-wilson.ITH.snk" />
     <None Include="Net.Bluetooth.BlueSoleil\32feet BlueSoleil Test.html" />
     <None Include="Net.Bluetooth.Msft\BTH_LOCAL_VERSION.cs" />
     <None Include="Net.Bluetooth\BluetoothVersion.cs" />
     <None Include="Windows\Forms\DeviceFilterEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="InTheHand.snk" />
     <None Include="Net.Bluetooth.BlueZ\32feet BlueZ Test.html" />
   </ItemGroup>
   <ItemGroup>
